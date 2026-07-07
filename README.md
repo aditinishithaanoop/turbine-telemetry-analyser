@@ -8,12 +8,12 @@ Analyze IoT telemetry data from wind turbines and automatically detect anomalies
 
 ### Key Features
 
-- ✅ **Automated Anomaly Detection** – Flags turbines exceeding temperature and vibration thresholds
-- ✅ **Multiple Output Formats** – Generate reports in CSV or JSON
-- ✅ **Docker Ready** – Containerized for easy deployment in cloud environments
-- ✅ **Configurable Thresholds** – Customize detection rules for your infrastructure
-- ✅ **Comprehensive Logging** – Track processing steps and identify data quality issues
-- ✅ **Exit Codes** – Scriptable integration with CI/CD and monitoring systems
+-  **Automated Anomaly Detection** – Flags turbines exceeding temperature and vibration thresholds
+-  **Multiple Output Formats** – Generate reports in CSV or JSON
+-  **Docker Ready** – Containerized for easy deployment in cloud environments
+-  **Configurable Thresholds** – Customize detection rules for your infrastructure
+-  **Comprehensive Logging** – Track processing steps and identify data quality issues
+-  **Exit Codes** – Scriptable integration with CI/CD and monitoring systems
 
 ## Requirements
 
@@ -101,10 +101,10 @@ The script returns exit codes for integration with monitoring and CI/CD systems:
 
 | Exit Code | Meaning |
 |-----------|---------|
-| `0` | ✅ Successful run, no anomalies found |
-| `1` | ⚠️ Turbines flagged (anomalies detected, maintenance required) |
-| `2` | ❌ Input file not found or unreadable |
-| `3` | ❌ Input file malformed or missing required columns |
+| `0` |  Successful run, no anomalies found |
+| `1` |  Turbines flagged (anomalies detected, maintenance required) |
+| `2` |  Input file not found or unreadable |
+| `3` |  Input file malformed or missing required columns |
 
 ### Docker
 
